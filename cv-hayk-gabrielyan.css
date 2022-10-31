@@ -1,0 +1,123 @@
+/* Eléments principaux de la page */
+#block_page {
+    width: 900px;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    color: #181818;
+    background-color: #fdf0d5;
+    border-radius: 2px;
+    box-shadow: 0px 2px 8px #5E5E5E;
+    display: flex;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+
+aside {
+    color: #E5E5E5;
+    background-color: #780000;
+    width: 40%;
+    border-radius: 0px 30px 0px 0px;
+    box-shadow: 2px 2px 5px #5c5454;
+    display: flex;
+    flex-direction: column;
+}
+
+#principal {
+    width: 100%;
+}
+
+header {
+height: 250px;
+}
+
+#photo_block1 {
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+#photo_block2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+#id_photo{
+    width: 200px;
+    height: auto;
+    border: solid 5px #fdf0d5;
+    border-radius: 50%;
+    box-shadow: 3px 12px 14px 1px rgba(5, 5, 5, 0.2);
+    
+}
+
+h1{
+    font-size: 3em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.titres , h1{
+    color: white;
+    background-color: #780000;
+    width: 80%;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0px 0px 25px 0px;
+    box-shadow: 0px 3px 5px #6b6969;
+    text-shadow: 1px 1px 5px black;
+}
+
+.années{
+    color: white;
+    font-weight: bolder;
+    background: linear-gradient(90deg, rgba(120,0,0,1) 9%, rgba(253,240,213,1) 96%);
+    width: 60%;
+    height: 20px;
+    padding: 5px 10px 5px 10px;
+    font-style: italic;
+    text-shadow: 1px 1px 5px black;
+    }
+
+.texte {
+    width: 80%;
+    margin-left: 20px;
+    text-align:justify;
+}
+
+#listes{
+    display: flex;
+}
+
+#competences{
+    width: 50%;
+}
+
+#interets{
+    width: 50%;
+}
+
+.listes{
+    margin-left: 30px;
+    padding: 0%;
+}
+
+aside h2
+{
+    background-color: #fdf0d5 ;
+    color: #780000;
+    padding: 5px 5px 5px 15px;
+    box-shadow: 0px 3px 5px #6b6969;
+}
+
+#links{
+    border: solid 2px #fdf0d5 ;
+    padding: 15px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#github_photo{
+    margin-top: 15px;
+    width: 80px;
+    border-radius: 40%;
+    box-shadow: 3px 0px 0px 1px rgba(5, 5, 5, 0.2);
+}
